@@ -55,8 +55,8 @@
 
         // console.log(perPerson)
         // update the perPersonTotal on DOM & show it to user
-
-        perPersonTotal.innerText = `$${perPerson.toLocaleString('en-US').toFixed(2)}`
+        let xixix = perPerson.toLocaleString('en-US')
+        perPersonTotal.innerText = `$${xixix.toFixed}`
     
     }
     
